@@ -45,7 +45,7 @@ class AboutScreen extends StatelessWidget {
               //   height: 120,
               // ),
               child: SvgPicture.asset(
-                'lib/assets/images/onboarding/logo.svg',
+                'assets/images/onboarding/logo.svg',
                 colorFilter: ColorFilter.mode(
                   Theme.of(context).colorScheme.primary, // The desired color
                   BlendMode.srcIn,

@@ -27,7 +27,7 @@ class _AppRouterState extends State<AppRouter> {
     const BrowseScreen(),
     AnimeScheduleScreen(),
     const WatchlistScreen(),
-    DualAirplayTestScreen(),
+    //DualAirplayTestScreen(),
     //TestNotificationScreen(),
     //const DownloadsScreen()
   ];
@@ -80,10 +80,10 @@ class _AppRouterState extends State<AppRouter> {
             icon: HugeIcons.strokeRoundedCollectionsBookmark,
             unselectedIcon: HugeIcons.strokeRoundedAllBookmark,
           ),
-          CrystalNavigationBarItem(
-            icon: HugeIcons.strokeRoundedDownload01,
-            unselectedIcon: HugeIcons.strokeRoundedFolder01,
-          ),
+          // CrystalNavigationBarItem(
+          //   icon: HugeIcons.strokeRoundedDownload01,
+          //   unselectedIcon: HugeIcons.strokeRoundedFolder01,
+          // ),
         ],
       ),
     );

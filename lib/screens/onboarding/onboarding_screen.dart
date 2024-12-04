@@ -202,12 +202,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             borderRadius: BorderRadius.circular(16),
             child: Image.asset(
               onboardingData[index]['image'],
-              height: MediaQuery.of(context).size.height * 0.5,
-              width: double.infinity,
+              height: MediaQuery.of(context).size.height * 0.45,
+              width: MediaQuery.of(context).size.width * 0.45,
               fit: BoxFit.cover,
             ),
           ),
-          const SizedBox(height: 32),
+          const SizedBox(height: 24),
           Text(
             onboardingData[index]['title'],
             style: theme.textTheme.headlineMedium?.copyWith(

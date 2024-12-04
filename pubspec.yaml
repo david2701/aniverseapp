@@ -1,7 +1,7 @@
 name: nekoflow
 description: "A new Flutter project."
 publish_to: 'none'
-version: 0.2.0+2
+version: 0.2.0+3
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
@@ -13,7 +13,7 @@ dependencies:
   dismissible_page: ^1.0.2
   flutter:
     sdk: flutter
-  flutter_launcher_icons: ^0.13.0
+  flutter_launcher_icons: ^0.14.1
   flutter_svg: ^2.0.16
   google_fonts: ^6.2.1
   hive: ^2.2.3
@@ -31,22 +31,22 @@ dependencies:
   flutter_local_notifications: ^18.0.1
   timezone: ^0.10.0
   shared_preferences: ^2.3.3
-  video_player_avfoundation: ^2.6.3
+  video_player_avfoundation: ^2.6.4
   video_player: ^2.9.2
   flutter_vlc_player: ^7.4.2
 
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "lib/assets/images/IconApp.png"
+  image_path: "assets/images/icon/icon.png"
   remove_alpha_ios: true
   adaptive_icon_background: "#FFFFFF"
-  adaptive_icon_foreground: "lib/assets/images/IconApp.png"
+  adaptive_icon_foreground: "assets/images/icon/icon.png"
 
 
 flutter_native_splash:
     color: "#ffffff"
-    image: "lib/assets/images/IconApp.png"
+    image: "assets/images/icon/icon.png"
     android: true
     ios: true
 
@@ -60,14 +60,15 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - lib/assets/images/
-    - lib/assets/images/onboarding/
-    - lib/assets/images/onboarding/logo.svg
-    - lib/assets/images/IconApp.png
-    - lib/assets/images/profile/
-    - lib/assets/images/onboarding/home_screen.png
-    - lib/assets/images/onboarding/calendar_screen.png
-    - lib/assets/images/onboarding/history_screen.png
-    - lib/assets/images/onboarding/favorites_screen.png
+    - assets/images/
+    - assets/images/onboarding/
+    - assets/images/onboarding/logo.svg
+    - assets/images/IconApp.png
+    - assets/images/profile/
+    - assets/images/onboarding/home_screen.png
+    - assets/images/onboarding/calendar_screen.png
+    - assets/images/onboarding/history_screen.png
+    - assets/images/onboarding/favorites_screen.png
+    - assets/images/icon/icon.png
     # - assets/images/home/
     # - assets/icons/app_icon.png

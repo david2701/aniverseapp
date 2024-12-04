@@ -95,7 +95,7 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Padding(
             padding: const EdgeInsets.all(6.0),
             child: Image.asset(
-              'lib/assets/images/IconApp.png',
+              'assets/images/IconApp.png',
               fit: BoxFit.contain,
             ),
           ),
